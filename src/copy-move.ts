@@ -890,11 +890,11 @@ function getTransferInput(args: unknown): { path?: string; source_from?: string;
 
 const transferSourceFromSchema = Type.String({
   description:
-    "4-char anchor of the FIRST source line to copy.",
+    "4-char anchor of the FIRST source line.",
 });
 const transferSourceToSchema = Type.String({
   description:
-    "4-char anchor of the LAST source line to copy.",
+    "4-char anchor of the LAST source line.",
 });
 const transferAnchorSchema = Type.String({
   description:
